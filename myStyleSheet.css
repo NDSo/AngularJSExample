@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color: black;
+    color: yellow;
+    
+}
+
+th:hover {
+    background-color:lightgray
+}
+
+.table-scrollable, .table-scrollable .table{
+    overflow-x: auto;
+    transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg); /* IE 9 */
+    -webkit-transform:rotateX(180deg); /* Safari and Chrome */    
+}
